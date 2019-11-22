@@ -27,11 +27,12 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    Communication.cpp
+    gcodeprocess.cpp
 
 HEADERS += \
         mainwindow.h \
-    gcode.h
+    gcodeprocess.h \
+    gcodedefinitions.h
 
 FORMS += \
         mainwindow.ui

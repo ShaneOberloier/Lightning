@@ -1,9 +1,9 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include "gcode.h"
+#include "gcodeprocess.h"
 
 //Public Entities
-GCodeLib GCode;
+GCodeProcess GCode;
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
